@@ -1,7 +1,3 @@
-# Legal Consultancy
-
-Hukuk danışmanlığı ofisleri için hazırlanmış web platformu. Ziyaretçiler hizmet alanlarını, makaleleri ve ekip üyelerini görüntüleyip iletişim formu gönderebilir; yöneticiler içerikleri yönetim panelinden düzenleyebilir.
-
 ## Proje bileşenleri
 
 - **`frontend/`** — React ve Vite ile hazırlanmış, Türkçe, İngilizce, Rusça ve Arapça arayüzü destekleyen ziyaretçi sitesi.
@@ -72,8 +68,6 @@ Frontend ve yönetim paneli, varsayılan olarak API isteklerini `http://localhos
 ```bash
 npm run seed
 ```
-
-**Uyarı:** Seed komutu mevcut kullanıcı, kategori, makale ve ekip üyesi verilerini silip örnek verilerle değiştirir. Yerel geliştirme içindir; mevcut verilerin bulunduğu veritabanında veya üretimde çalıştırmayın. Örnek yönetici hesabı `admin` / `admin123` bilgileriyle oluşturulur; üretimde bu hesabı kullanmayın.
 
 ## API ve ek dokümantasyon
 
